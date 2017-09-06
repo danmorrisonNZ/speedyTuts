@@ -76,6 +76,9 @@ p{
 .pointer{
   cursor: pointer;
 }
+.block{
+  display: block;
+}
 
 //symbols
 .default-border{
@@ -84,7 +87,7 @@ p{
 }
 
 input{
-  @extend .default-border;
+  @extend .default-border, .block;
   font-size: 16px;
   padding: 5px;
 }
@@ -119,7 +122,7 @@ img {
 }
 
 a {
-  @extend .red-text;
+  @extend .red-text, .pointer, .heavy;
   text-decoration: none;
 }
 
