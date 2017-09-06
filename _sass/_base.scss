@@ -47,6 +47,9 @@ input{
 .italic{
   font-style: italic;
 }
+.caps{
+  text-transform: uppercase;
+}
 
 body {
     font-family: $base-font-family;
