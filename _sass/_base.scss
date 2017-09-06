@@ -22,16 +22,16 @@ h4{
   font-size: 33px;
 }
 p{
-  .xlrg{
+  &.xlrg{
     font-size: 30px;
   }
-  .lrg{
+  &.lrg{
     font-size: 24px;
   }
-  .med{
+  &.med{
     font-size: 18px;
   }
-  .sml{
+  &.sml{
     font-size: 14px;
   }
 }
@@ -39,10 +39,10 @@ input{
   font-size: 27px;
 }
 .heavy{
-  font-weight: bolder;
+  font-weight: 600;
 }
 .bold{
-  font-weight: bold;
+  font-weight: 500;
 }
 .italic{
   font-style: italic;
@@ -51,6 +51,7 @@ input{
 body {
     font-family: $base-font-family;
     line-height: $base-line-height ;
+    font-weight: 400;
     background-color: $background-color;
     background-image: $background-texture;
     background-repeat: $background-pattern-setting;
