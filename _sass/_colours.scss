@@ -1,0 +1,23 @@
+// colours
+.red-background{
+  background-color: $red;
+}
+.yellow-background{
+  background-color: $yellow;
+}
+.black-background{
+  background-color: $black;
+}
+.red-text{
+  color: $red;
+}
+.yellow-text{
+  color: $yellow;
+}
+.black-text{
+  color: $black;
+}
+.texture{
+  background-image:  $background-texture;
+  background-repeat: $background-pattern-setting;
+}
