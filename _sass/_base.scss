@@ -51,13 +51,43 @@ input{
   text-transform: uppercase;
 }
 
+// colours
+.red-background{
+  background-color: $red;
+}
+.red-text{
+  color: $red;
+}
+.yellow-background{
+  background-color: $yellow;
+}
+.yellow-text{
+  color: $yellow;
+}
+.black-background{
+  background-color: $black;
+}
+.black-text{
+  color: $black;
+}
+.texture{
+  background-image: $background-texture;
+  background-repeat: $background-pattern-setting;
+}
+
+//symbols
+.swatch{
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+}
+
+// Built in styling
 body {
     font-family: $base-font-family;
     line-height: $base-line-height ;
     font-weight: 400;
     background-color: $background-color;
-    background-image: $background-texture;
-    background-repeat: $background-pattern-setting;
     -webkit-text-size-adjust: 100%;
     -webkit-font-feature-settings: "kern" 1;
     -moz-font-feature-settings: "kern" 1;
@@ -73,7 +103,6 @@ img {
 a {
   text-decoration: none;
 }
-
 
 .icon {
 
