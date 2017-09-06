@@ -79,6 +79,9 @@ p{
 .block{
   display: block;
 }
+.text-center{
+  text-align: center;
+}
 
 //symbols
 .default-border{
@@ -100,6 +103,12 @@ input[type="submit"]{
 textarea{
   @extend input;
   resize: none;
+}
+
+.landing-page-category-card-number{
+  @extend .red-background, .yellow-text, p.sml, .heavy, .caps, .text-center;
+  width: 50px;
+  padding: 3px;
 }
 
 
