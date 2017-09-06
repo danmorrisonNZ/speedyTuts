@@ -49,7 +49,8 @@ input{
 }
 
 body {
-    font: $base-line-height $base-font-family;
+    font-family: $base-font-family;
+    line-height: $base-line-height ;
     background-color: $background-color;
     background-image: $background-texture;
     background-repeat: $background-pattern-setting;
