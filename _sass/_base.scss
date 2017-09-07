@@ -79,6 +79,19 @@ a {
   }
 }
 
+#hamburger-menu{
+  .top-bun{
+    width: 44px;
+    height: 15px;
+    border-radius:24px 24px 0px 0px;
+  }
+  .bottom-bun{
+    width: 44px;
+    height: 8px;
+    border-radius:0px 0px 5px 5px;
+  }
+}
+
 .site-footer{
   background-color: $black;
   .social-media-list{
