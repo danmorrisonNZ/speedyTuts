@@ -2,7 +2,7 @@
         "text-styles",
         "colours",
         "utility-styles",
-        "images"        
+        "images"
 ;
 //symbols
 .default-border{
@@ -33,7 +33,7 @@ textarea{
 }
 
 
-// Built in styling
+// Base default styling
 body {
     font-family: $base-font-family;
     line-height: $base-line-height ;
@@ -63,7 +63,26 @@ a {
         height: 16px;
         vertical-align: middle;
         path {
-            fill: $yellow;
+            fill: $white;
         }
     }
+}
+
+.social-media-list{
+  margin-right: 10px;
+}
+
+.site-footer{
+  background-color: $black;
+  padding:20px;
+  .logo-white{
+    width: 60px;
+    height: 35px;
+  }
+  a{
+    margin: 0px 10px;
+  }
+  .links{
+    margin-top: 5px;
+  }
 }

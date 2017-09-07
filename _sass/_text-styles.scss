@@ -4,6 +4,10 @@ p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
     margin: 0;
     padding: 0;
+    letter-spacing: 0.3px;
+}
+ul,li,ol{
+  list-style: none;
 }
 h1{
   font-size: 50px;
@@ -17,7 +21,7 @@ h3{
 h4{
   font-size: 33px;
 }
-p{
+p,a{
   &.xlrg{
     font-size: 30px;
   }
@@ -36,6 +40,12 @@ p{
 }
 .bold{
   font-weight: 500;
+}
+.medium{
+  font-weight: 400;
+}
+.light{
+  font-weight: 100;
 }
 .italic{
   font-style: italic;
