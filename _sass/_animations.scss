@@ -1,0 +1,7 @@
+$default-transition: all 0.15s;
+
+.button-press:active{
+    -ms-transform: scale(0.92, 0.92); /* IE 9 */
+    -webkit-transform: scale(0.92, 0.92); /* Safari */
+    transform: scale(0.92, 0.92);
+}

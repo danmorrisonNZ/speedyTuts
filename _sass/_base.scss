@@ -2,7 +2,8 @@
         "text-styles",
         "colours",
         "utility-styles",
-        "images"
+        "images",
+        "animations"
 ;
 //symbols
 .default-border{
@@ -15,10 +16,14 @@ input{
   font-size: 16px;
   padding: 5px;
 }
+input:focus{
+  outline: none;
+}
 
 input[type="submit"]{
-  @extend .red-background, .yellow-text, p.med, .heavy, .caps, .pointer;
+  @extend .red-background, .yellow-text, p.med, .heavy, .caps, .pointer,.button-press;
   padding: 8px 15px;
+  transition: $default-transition;
 }
 
 textarea{
@@ -56,6 +61,10 @@ a {
   text-decoration: none;
 }
 
+a:focus{
+  outline: none;
+}
+
 .icon {
     > svg {
         display: inline-block;
@@ -81,17 +90,30 @@ a {
 
 #hamburger-menu{
   margin-top: 15px;
+  transition: $default-transition;
   .top-bun{
     width: 44px;
     height: 18px;
     border-radius:50%/100%;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
+    transition: $default-transition;
   }
   .bottom-bun{
     width: 44px;
     height: 8px;
     border-radius:0px 0px 5px 5px;
+    transition: $default-transition;
+  }
+}
+
+#hamburger-menu:hover{
+  transition: $default-transition;
+  .top-bun,.bottom-bun{
+    background-color: $red;
+  }
+  p{
+    color: $red;
   }
 }
 
