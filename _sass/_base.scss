@@ -83,8 +83,10 @@ a {
   margin-top: 15px;
   .top-bun{
     width: 44px;
-    height: 15px;
-    border-radius:24px 24px 0px 0px;
+    height: 18px;
+    border-radius:50%/100%;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
   }
   .bottom-bun{
     width: 44px;
