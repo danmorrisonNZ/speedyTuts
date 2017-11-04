@@ -78,7 +78,7 @@ a:focus{
     }
 }
 
-.site-header,.site-footer{
+.site-header{
   padding:20px;
 }
 
@@ -118,7 +118,14 @@ a:focus{
 }
 
 .site-footer{
+  .wrapper{
+    padding:20px;
+  }
   background-color: $black;
+  bottom: 0;
+  display: block;
+  position: absolute;
+  width: 100%;
   .social-media-list{
     margin-right: 10px;
   }

@@ -5,13 +5,7 @@
         <div class="links text-right vertical-middle inline-block float-right">
           <a href="#" class="inline-block sml white-text medium">about</a>
           <a href="#" class="inline-block sml white-text medium">request a tutorial</a>
-          <ul class="social-media-list inline-block">
-            {% if site.twitter_username %}
-            <li>
-              {% include icon-twitter.html username=site.twitter_username %}
-            </li>
-            {% endif %}
-          </ul>
+          {% include icon-twitter.html username=site.twitter_username %}
         </div>
     </div>
   </div>
