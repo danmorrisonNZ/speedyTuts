@@ -42,8 +42,9 @@
     border: 3px dashed $yellow;
   }
   a{
-    color: $yellow;
+    color: $white;
     padding:10px 0px;
+    text-shadow: 1px 1px 0px $black;
   }
   a:nth-child(-n+3){
     border-bottom: 2px dashed $yellow;
