@@ -32,15 +32,18 @@
   width: 250px;
   margin-top: 110px;
   z-index:200;
-  padding: 30px;
+  padding: 15px;
   top:0;
   right: 0;
   transform: translateX(100%);
   -webkit-transform: translateX(100%);
+  .link-wrapper{
+    border: 1px dashed $yellow;
+  }
   a{
-    color: $white;
+    color: $yellow;
     display: block;
-    padding:5px 0px 5px 0px
+    padding:10px 0px 10px 10px ;
   }
 }
 
