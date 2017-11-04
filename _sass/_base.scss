@@ -89,34 +89,6 @@ a:focus{
   }
 }
 
-#hamburger-menu{
-  margin-top: 15px;
-  transition: $default-transition;
-  width: 44px;
-  .top-bun{
-    height: 18px;
-    border-radius:50%/100%;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-    transition: $default-transition;
-  }
-  .bottom-bun{
-    height: 8px;
-    border-radius:0px 0px 5px 5px;
-    transition: $default-transition;
-  }
-}
-
-#hamburger-menu:hover{
-  transition: $default-transition;
-  .top-bun,.bottom-bun{
-    background-color: $red;
-  }
-  p{
-    color: $red;
-  }
-}
-
 .site-footer{
   .wrapper{
     padding:20px;
