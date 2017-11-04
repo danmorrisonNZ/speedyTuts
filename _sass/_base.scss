@@ -92,8 +92,8 @@ a:focus{
 #hamburger-menu{
   margin-top: 15px;
   transition: $default-transition;
+  width: 44px;
   .top-bun{
-    width: 44px;
     height: 18px;
     border-radius:50%/100%;
     border-bottom-left-radius: 0px;
@@ -101,7 +101,6 @@ a:focus{
     transition: $default-transition;
   }
   .bottom-bun{
-    width: 44px;
     height: 8px;
     border-radius:0px 0px 5px 5px;
     transition: $default-transition;
